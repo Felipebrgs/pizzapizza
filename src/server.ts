@@ -1,5 +1,5 @@
 import express from "express";
-import db from "./database";
+import db from "./database.ts";
 
 const app = express();
 app.use(express.json());
